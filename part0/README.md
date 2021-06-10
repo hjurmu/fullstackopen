@@ -2,7 +2,7 @@
 
 ## Exercise 0.4 New note
 
-![ecercise 0.4 sequence diagram] (Exercise0.4_NewNote.png "Exercise 0.4")
+![ecercise 0.4 sequence diagram](Exercise0.4_NewNote.png "Exercise 0.4")
 
 ```title Exercise 0.4 New Note
 
@@ -59,7 +59,7 @@ end note
 
 ## Exercise 0.5 Single page app
 
-![ecercise 0.5 sequence diagram] (Exercise0.5SinglePageApp.png "Exercise 0.5")
+![ecercise 0.5 sequence diagram](Exercise0.5SinglePageApp.png "Exercise 0.5")
 
 ```
 title Exercise 0.5 Single Page App
@@ -100,7 +100,7 @@ end note
 
 ## Exercise 0.6 New note
 
-![ecercise 0.6 sequence diagram] (Exercise0.6_NewNoteSPA.png "Exercise 0.6")
+![ecercise 0.6 sequence diagram](Exercise0.6_NewNoteSPA.png "Exercise 0.6")
 
 ```
 title Exercise 0.6 New Note (SPA)
