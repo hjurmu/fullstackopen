@@ -4,12 +4,12 @@
 ## Exercises
 ---
 ### Part 0 - Fundamentals of Web apps
-- [ ] 0.1 HTML
-- [ ] 0.2 CSS
-- [ ] 0.3 HTML Forms
-- [ ] 0.4 New note
-- [ ] 0.5 Single page app
-- [ ] 0.6 New note
+- [x] 0.1 HTML
+- [x] 0.2 CSS
+- [x] 0.3 HTML Forms
+- [x] 0.4 New note
+- [x] 0.5 Single page app
+- [x] 0.6 New note
 <br>
 
 ---
