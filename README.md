@@ -15,7 +15,7 @@
 ---
 ### Part 1 - Introduction to React
 #### a) Introduction to React 
-- [ ] 1.1 Course information, step 1
+- [x] 1.1 Course information, step 1
 - [ ] 1.1 Course information, step 2
 #### b) JavaScript
 - [ ] 1.3 Course information, step 3
