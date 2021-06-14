@@ -19,7 +19,7 @@
 - [x] 1.1 Course information, step 2
 #### b) JavaScript
 - [x] 1.3 Course information, step 3
-- [ ] 1.4 Course information, step 4
+- [x] 1.4 Course information, step 4
 - [ ] 1.5 Course information, step 5
 #### c) Component state, event handlers
 #### d) A more complex state, debugging React apps
