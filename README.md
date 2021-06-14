@@ -18,7 +18,7 @@
 - [x] 1.1 Course information, step 1
 - [x] 1.1 Course information, step 2
 #### b) JavaScript
-- [ ] 1.3 Course information, step 3
+- [x] 1.3 Course information, step 3
 - [ ] 1.4 Course information, step 4
 - [ ] 1.5 Course information, step 5
 #### c) Component state, event handlers
