@@ -27,9 +27,9 @@ const App = () => {
   ]
    
   const [selected, setSelected] = useState(0)
-  const [votes ,setVotes] = useState(Array(anecdotes.length).fill(0));
+  const [votes ,setVotes] = useState(Array(anecdotes.length).fill(0))
 
-  console.log(votes)
+  const bestAnecdote = Object.keys(votes).sort((i, j) => votes[j] - votes[i])[0]
 
   const handleNextClick = () => {
     const rand = Math.floor(Math.random() * (anecdotes.length))
@@ -47,6 +47,7 @@ const App = () => {
       <Anecdote heading='Anecdote of the day' anecdote={anecdotes[selected]} votes={votes[selected]}/>
       <Button handleClick={handleVoteClick} text='vote' />
       <Button handleClick={handleNextClick} text='next anecdote'/>
+      <Anecdote heading='Anecdote with most votes' anecdote={anecdotes[bestAnecdote]} votes={votes[bestAnecdote]}/>
     </div>
     
   )
