@@ -16,32 +16,18 @@ const App = () => {
   const [good, setGood] = useState(0)
   const [neutral, setNeutral] = useState(0)
   const [bad, setBad] = useState(0)
-  const [all, setAll] = useState(0)
 
-  const handleGoodClick = () => {
-    setAll(all + 1)
-    setGood(good + 1)
-  }
-  const handleNeutralClick = () => {
-    setAll(all + 1)
-    setNeutral(neutral + 1)
-  }
-  const handleBadClick = () => {
-    setAll(all + 1)
-    setBad(bad + 1)
-  }
+  const all = good + neutral + bad
+  const average = (good * 1 + neutral * 0 +  bad * -1 ) / all
+  const goodPercentage = good / all * 100
 
-  const countAverage = () => {
-    if (all === 0) {
-      return 0
-    }
-    return (
-      (good * 1 + bad * -1 )/ all
-    )
-  }
+  const handleGoodClick = () => setGood(good + 1)
 
-  const countPercentage = (numerator, denominator) => 
-  (numerator/denominator * 100)
+  const handleNeutralClick = () => setNeutral(neutral + 1)
+
+  const handleBadClick = () => setBad(bad + 1)
+
+  
 
   return (
     <div>
@@ -54,9 +40,9 @@ const App = () => {
         <Stat text='good' value={good} /><br/>
         <Stat text='neutral' value={neutral} /><br/>
         <Stat text='bad' value={bad} /><br/>
-        <Stat text='all' value={all} /><br/>
-        <Stat text='average' value={countAverage()} /><br/>
-        <Stat text='positive' value={countPercentage(good, all)} /> %
+        <Stat text='all' value={good + neutral + bad} /><br/>
+        <Stat text='average' value={average} /><br/>
+        <Stat text='positive' value={goodPercentage} /> %
       </p>
       
     </div>
