@@ -28,7 +28,7 @@
 - [x] 1.8 Unicafe, step 3
 - [x] 1.9 Unicafe, step 4
 - [x] 1.10 Unicafe, step 5
-- [ ] 1.11 Unicafe, step 6
+- [x] 1.11 Unicafe, step 6
 - [ ] 1.12 Anecdotes, step 1
 - [ ] 1.13 Anecdotes, step 2
 - [ ] 1.14 Anecdotes, step 3
