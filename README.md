@@ -24,7 +24,7 @@
 #### c) Component state, event handlers
 #### d) A more complex state, debugging React apps
 - [x] 1.6 Unicafe, step 1
-- [ ] 1.7 Unicafe, step 2
+- [x] 1.7 Unicafe, step 2
 - [ ] 1.8 Unicafe, step 3
 - [ ] 1.9 Unicafe, step 4
 - [ ] 1.10 Unicafe, step 5
