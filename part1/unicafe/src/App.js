@@ -15,20 +15,27 @@ const Statistic = ({ text, value }) => (
 
 const Statistics = ({good, neutral, bad}) => {
 
+  const round = (number, places) => {
+    return +(Math.round(number + "e+" + places) + "e-" + places)
+  }
+
   const all = good + neutral + bad
-  const average = (good * 1 + neutral * 0 +  bad * -1 ) / all
-  const goodPercentage = good / all * 100 + ' %'
+  const average = round((good * 1 + neutral * 0 +  bad * -1 ) / all,1)
+  const goodPercentage = round(good / all * 100,1) + ' %'
+
 
   if (good > 0 || neutral > 0 || bad > 0) {
     return (
       <>
         <table>
-          <Statistic text='good' value={good} />
-          <Statistic text='neutral' value={neutral} />
-          <Statistic text='bad' value={bad} />
-          <Statistic text='all' value={good + neutral + bad} />
-          <Statistic text='average' value={average} />
-          <Statistic text='positive' value={goodPercentage} />
+          <tbody>
+            <Statistic text='good' value={good} />
+            <Statistic text='neutral' value={neutral} />
+            <Statistic text='bad' value={bad} />
+            <Statistic text='all' value={good + neutral + bad} />
+            <Statistic text='average' value={average} />
+            <Statistic text='positive' value={goodPercentage} />
+          </tbody>
         </table>
       </>
     )
