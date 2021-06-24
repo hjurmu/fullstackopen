@@ -41,7 +41,7 @@
 - [x] 2.2 Course information, step 7
 - [x] 2.3 Course information, step 8
 - [x] 2.4 Course information, step 9
-- [ ] 2.5 Separate module
+- [x] 2.5 Separate module
 #### b) Forms
 - [ ] 2.6 Phonebook, step 1
 - [ ] 2.7 Phonebook, step 2
