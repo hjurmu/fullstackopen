@@ -38,8 +38,8 @@
 ### Part 2 - Communicating with server 
 #### a) Rendering a collection, modules
 - [x] 2.1 Course information, step 6
-- [ ] 2.2 Course information, step 7
-- [ ] 2.3 Course information, step 8
+- [x] 2.2 Course information, step 7
+- [x] 2.3 Course information, step 8
 - [ ] 2.4 Course information, step 9
 - [ ] 2.5 Separate module
 #### b) Forms
